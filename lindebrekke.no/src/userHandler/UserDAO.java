@@ -12,7 +12,7 @@ public class UserDAO {
 	private EntityManager em; 
 	
 	public List<User> getAllUsers() {
-		return em.createQuery("SELECT u FROM User u", User.class).getResultList();
+		return em.createQuery("SELECT u FROM UserList u", User.class).getResultList();
 	}
 	
 	public void createNewUser(User newUser) {

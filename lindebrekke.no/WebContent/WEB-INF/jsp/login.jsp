@@ -4,7 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<link href="css/login.css" rel="stylesheet" type="text/css">
+<link href="css/loginForm.css" rel="stylesheet" type="text/css">
+<link href="css/general.css" rel="stylesheet" type="text/css">
+
 <title>Login</title>
 </head>
 <body class="background">
@@ -14,11 +16,11 @@
 	
 	<form action="login" method="post" id="loginForm">
 		
-		<div class="loginstyle"> 
+		<div class="formElement"> 
 			<label> Username: </label>
 			<input name="username" type="text">
 		</div>	
-		<div class="loginstyle"> 
+		<div class="formElement"> 
 			<label> Password: </label>
 			<input name="password" type="text">
 		</div>	

@@ -1,0 +1,36 @@
+form { 
+	display: table; 
+	text-align: center;
+	margin: 0 auto; 
+	width: 250px;     
+}
+
+.formElement { 
+	display: table-row; 
+	text-align: center;
+}
+
+label { 
+	display: table-cell;
+	font-size: 20px;
+	padding: 10px 0;
+	text-align: left;
+	color: white 
+}
+
+input { 
+	display: table-cell; 
+	width: 130px;
+	text-align: left;
+	font-size: 20px;
+	padding: 2px 0; 
+}
+
+button {
+	margin: 0 auto;
+	display: block;
+	height: 30px;
+	width: 120px;
+}
+
+
