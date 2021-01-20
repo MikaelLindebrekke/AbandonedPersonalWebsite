@@ -24,6 +24,10 @@ public class User {
 		this.lastname = ln;
 	}
 
+	public User() {
+		// Only here for testing purposes. Will remove when not needed anymore. 
+	}
+
 	public String getUsername() {
 		return username;
 	}

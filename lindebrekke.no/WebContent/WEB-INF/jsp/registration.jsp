@@ -16,26 +16,31 @@
 		
 		<div class="formElement">
 			<label> Your firstname: </label>
-			<input name="firstname" type="text">
+			<input name="firstname" type="text" value="${keepFN}">
+			<font class="errorText"> ${errorFN} </font>
 		</div>
 		<div class="formElement">
 			<label> Your lastname: </label>
-			<input name="lastname" type="text">
+			<input name="lastname" type="text" value="${keepLN}">
+			<font class="errorText"> ${errorLN} </font>
 		</div>
 		<div class="formElement">
 			<label> Create username: </label>
-			<input name="newUsername" type="text">
+			<input name="newUsername" type="text" value="${keepUN}">
+			<font class="errorText"> ${errorUN} </font>
 		</div>
 		<div class="formElement">
 			<label> Create password: </label>
-			<input name="newPassword" type="password">
+			<input name="newPassword" type="password" value="${keepPWD}">
+			<font class="errorText"> ${errorPWD} </font>
 		</div>
 		<div class="formElement">
 			<label> Repeat password: </label>
-			<input name="repeatPassword" type="password">
+			<input name="passwordRepeated" type="password" value="${keepPWDRep}">
+			<font class="errorText"> ${errorPWDRep} </font>
 		</div>
 		
-		<div class="errorText"> ${ToBeAdded}</div>
+		
 	
 	</form>
 	

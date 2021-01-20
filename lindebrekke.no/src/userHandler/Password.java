@@ -16,6 +16,10 @@ public class Password {
 		pwd_salt = salt;
 	}
 	
+	public Password() {
+		//Empty constructor
+	}
+
 	public static Password makePassword(String newPassword) {
 		String salt = PwdUtil.generateRandomSalt();
 		String hash = PwdUtil.hashWithSalt(newPassword, salt);

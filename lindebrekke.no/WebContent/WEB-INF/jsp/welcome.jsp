@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<link href="css/primary.css" rel="stylesheet" type="text/css">
+<link href="css/general.css" rel="stylesheet" type="text/css">
 <title>Welcome</title>
 </head>
 <body class="background">
