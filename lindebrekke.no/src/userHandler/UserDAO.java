@@ -14,7 +14,7 @@ public class UserDAO {
 	
 	
 	public List<User> getAllUsers() {
-		return em.createQuery("SELECT u FROM UserList u", User.class).getResultList();
+		return em.createQuery("SELECT u FROM User u", User.class).getResultList();
 	}
 	
 	public void create(User newUser) {

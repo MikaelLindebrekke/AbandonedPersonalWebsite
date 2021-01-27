@@ -22,7 +22,7 @@
 		</div>	
 		<div class="formElement"> 
 			<label> Password: </label>
-			<input name="password" type="text">
+			<input name="password" type="password">
 		</div>	
 
 		<div class="errorText"> ${errorMessage}</div>

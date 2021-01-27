@@ -1,60 +1,10 @@
-.background {
-	background-color:black;
-}
-
-.title {
-	font-size: 400%;
-	padding: 70px 0;
+.table-wrapper{
+  	display: table; 
 	text-align: center;
-	color: white
-}
-
-.text {
-	font-size: 30px;
-	padding: 20px 0;
-	text-align: center;
-	color: white;
 	margin: 0 auto; 
-
+	width: 250px; 
 }
 
-.errorText {
-	font-size: 30px;
-	padding: 30px 0;
-	text-align: center;
-	color: red
-}
-
-button {
-	margin: 0 auto;
-	display: block;
-	height: 30px;
-	width: 120px;
-}
-
-
-form { 
-display: table; 
-text-align: center;
-margin: 0 auto; 
-width: 250px;     
-}
-
-.loginstyle { 
-display: table-row; 
-text-align: center; 
-}
-
-label { 
-display: table-cell;
-font-size: 25px;
-padding: 5px 0;
-text-align: center;
-color: white 
-}
-
-input { 
-display: table-cell; 
-text-align: center;
-padding: 5px 0; 
+th, td {
+	padding: 0 15px 0 15px;
 }

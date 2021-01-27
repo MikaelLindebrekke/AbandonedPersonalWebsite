@@ -11,6 +11,7 @@
 		<class>movieChooser.Movie</class>
 		<class>userHandler.Password</class>
 		<class>userHandler.User</class>
+		<class>userHandler.Userlist</class>
 		<properties>
 			<property name="eclipselink.weaving" value="false" />
 		</properties>

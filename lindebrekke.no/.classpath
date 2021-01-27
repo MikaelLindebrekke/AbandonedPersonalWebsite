@@ -16,5 +16,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/Java_Eclipse/Java_ressurser/eclipselink-2.7.7.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema = "MLWebSite", name = "UserList")
+@Table(schema = "MLWebSite", name = "userlist")
 public class User {
 
 	@Id
