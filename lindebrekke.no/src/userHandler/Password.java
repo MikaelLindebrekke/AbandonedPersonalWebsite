@@ -4,8 +4,14 @@ import javax.persistence.Embeddable;
 
 import utils.PwdUtil;
 
-@Embeddable
 
+/**
+ * Password class for creating a password
+ * 
+ * @author Mikael Lindebrekke
+ */
+
+@Embeddable
 public class Password {
 	
 	private String pwd_hash;
@@ -19,7 +25,12 @@ public class Password {
 	public Password() {
 		//Empty constructor
 	}
-
+	/**
+	 * Encrypts a password
+	 * 
+	 * @param newPassword
+	 * @return Password
+	 */
 	public static Password makePassword(String newPassword) {
 		String salt = PwdUtil.generateRandomSalt();
 		String hash = PwdUtil.hashWithSalt(newPassword, salt);

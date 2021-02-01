@@ -16,7 +16,9 @@ import userHandler.UserDAO;
 import utils.Validator;
 
 /**
- * Servlet implementation class RegistrationServlet
+ * A servlet that handles registration of a new user. 
+ * 
+ * @author Mikael Lindebrekke
  */
 @WebServlet("/registration")
 public class RegistrationServlet extends HttpServlet {
@@ -102,35 +104,5 @@ public class RegistrationServlet extends HttpServlet {
 		} else { 
 			request.getRequestDispatcher("WEB-INF/jsp/registration.jsp").forward(request, response);
 		}
-			
-		
 	}
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

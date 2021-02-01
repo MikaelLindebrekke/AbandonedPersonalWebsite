@@ -14,7 +14,11 @@ import javax.servlet.http.HttpServletResponse;
 import userHandler.User;
 import userHandler.UserDAO;
 
-
+/**
+ * The main page servlet. Will handle all the action regarding moving around the page. 
+ * 
+ * @author Mikael Lindebrekke
+ */
 @WebServlet("/main")
 public class MainpageServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

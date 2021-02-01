@@ -5,6 +5,12 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Creates a user for the website
+ * 
+ * @author Mikael Lindebrekke
+ */
+
 @Entity
 @Table(schema = "MLWebSite", name = "userlist")
 public class User {
@@ -22,10 +28,6 @@ public class User {
 		this.password = pwd;
 		this.firstname = fn;
 		this.lastname = ln;
-	}
-
-	public User() {
-		// Only here for testing purposes. Will remove when not needed anymore. 
 	}
 
 	public String getUsername() {

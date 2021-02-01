@@ -6,8 +6,19 @@ import java.security.SecureRandom;
 
 import javax.xml.bind.DatatypeConverter;
 
+
+/**
+ * A password utilty class that encrypts a password with hashing and salt.
+ * 
+ * @author Mikael Lindebrekke
+ */
 public class PwdUtil {
 	
+	/**
+	 * Generates a random salt
+	 * 
+	 * @return String salt
+	 */
 	public static String generateRandomSalt() {
 		SecureRandom sr;
 		byte[] salt = new byte[16];
@@ -19,6 +30,13 @@ public class PwdUtil {
 		return DatatypeConverter.printHexBinary(salt);
 	}
 	
+	/**
+	 * Hashes a password with salt. 
+	 * 
+	 * @param pwd
+	 * @param salt
+	 * @return String hashWithSalt
+	 */
 	public static String hashWithSalt(String pwd, String salt) {
 		byte[] pwdHash = null;
 		try {

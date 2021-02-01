@@ -8,7 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class WelcomeServlet
+ * Simple servlet that sends you to a welcome page. 
+ * 
+ * @author Mikael Lindebrekke
  */
 @WebServlet("/welcome")
 public class WelcomeServlet extends HttpServlet {

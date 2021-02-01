@@ -6,9 +6,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
+/**
+ * A class for a movie
+ * 
+ * @author Mikael Lindebrekke
+ */
 @Entity
 @Table(schema = "MLWebSite", name = "MovieList")
-
 public class Movie {
 	
 	@Id

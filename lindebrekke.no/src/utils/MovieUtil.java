@@ -5,19 +5,31 @@ import java.util.List;
 
 import movieHandler.Movie;
 
+/** 
+ *	A utility class for handling movies in the movie archive
+ * 
+ * @author Mikael Lindebrekke
+ */
+
 public class MovieUtil {
-	
+	/**
+	 * Takes a list of movies and select a movie at random 
+	 * 
+	 * @param movies
+	 * @return movie
+	 */
 	public Movie chooseRandomMovie(List<Movie> movies) {
-		Movie m = new Movie();
+		int randomNumber = (int) (Math.random() * movies.size());
 		
-		//Select a random movie from the unseen movie list.
-		
-		
-		
-		return m;
+		return movies.get(randomNumber);
 	}
 	
-	
+	/**
+	 * Selects all the movies with status unseen from the main movie list. 
+	 * 
+	 * @param allMovies
+	 * @return unseenMovies
+	 */
 	public List<Movie> selectUnseenMovies(List<Movie> allMovies) {
 		
 		List<Movie> unseenMovies = new ArrayList<Movie>();
@@ -30,6 +42,12 @@ public class MovieUtil {
 		
 		return unseenMovies;
 	}
+	/**
+	 * Selects all the movies with status seen from the main movie list. 
+	 * 
+	 * @param allMovies
+	 * @return seenMovies
+	 */
 	
 	public List<Movie> selectSeenMovies(List<Movie> allMovies) {
 		

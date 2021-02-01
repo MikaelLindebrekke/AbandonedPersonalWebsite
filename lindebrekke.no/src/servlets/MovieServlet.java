@@ -7,7 +7,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
+/**
+ * A servlet that handles the page for the movie archive.
+ * 
+ * @author Mikael Lindebrekke
+ */
 @WebServlet("/moviearchive")
 public class MovieServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

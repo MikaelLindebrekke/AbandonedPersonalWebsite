@@ -14,6 +14,11 @@ import userHandler.User;
 import userHandler.UserDAO;
 import utils.PwdUtil;
 
+/**
+ * The servlet that handles a user login. 
+ * 
+ * @author Mikael Lindebrekke
+ */
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
